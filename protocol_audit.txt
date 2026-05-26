@@ -1,0 +1,7 @@
+
+# Operation Grid Lock
+
+Real Google IP: 142.250.198.174
+Cloaked Service Server: nginx/1.24.0 (Ubuntu)
+
+

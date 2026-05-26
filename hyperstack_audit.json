@@ -1,0 +1,8 @@
+{
+	"operator": "SC",
+	"host_ip": "10.0.2.15",
+	"vm_sandbox_ip": "192.168.56.101",
+	"web_container_id":"448f69354d30",
+	"isolation_test": "PASSED",
+	"persistence_verified": true
+}

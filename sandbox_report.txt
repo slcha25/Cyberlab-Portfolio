@@ -1,0 +1,12 @@
+==================================================
+SESSION 10: SANDBOX DETONATION REPORT
+Operator: sokchan
+==================================================
+
+QUESTION 1: Did the ping to google.com succeed or fail in Host-Only mode?
+ANSWER: Fail, I got the message : Temporary failure in name resolution.That means the sandbox is successfully air-gapped.
+
+QUESTION 2: Why must a SOC analyst NEVER use "Bridged" mode when detonating unknown malware?
+ANSWER: SOC analyst never use "Bridged" mode when detonating unknown malware because it will give the chance to escapte the sandbox and infect other devices.
+        Setting bridge mode is creating a massive security risk.
+

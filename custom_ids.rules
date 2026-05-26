@@ -1,0 +1,7 @@
+# SURICATA CUSTOM RULESET
+# Format: action protocol source_ip source_port -> dest_ip dest_port (options)
+
+
+alert icmp any any -> 172.90.0.10 any (msg:"ICMP Ping Detected"; sid:1000001; rev:1;)
+
+alert tcp any any -> 172.90.0.10 80 (msg:"HTTP Traffic Detected"; sid:1000002; rev:1;)

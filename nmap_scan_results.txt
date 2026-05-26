@@ -1,0 +1,29 @@
+==================================================
+SESSION 20: NETWORK ENUMERATION MAP
+Target Subnet: 172.99.0.0/24
+==================================================
+
+HOST 1 (172.99.0.5)
+* Open Ports: 80
+* Service/Version: http nginx 1.29.8
+
+HOST 2 (172.99.0.6)
+* Open Ports: 6379
+* Service/Version: redis Redis key-value store 8.6.2
+
+HOST 3 (172.99.0.7)
+* Open Ports: 80
+* Service/Version: http Apache httpd 2.4.66((Unix))
+
+QUESTIONS:
+1. What Nmap flag did you use to find the specific software versions running on these ports?
+Answer: -sV (version detection) 
+
+2. Why is it dangerous to run an intense scan (like -A) on a fragile legacy system?
+Answer: It is dangerous to run an intense scan on a fragile legacy system because -A is enable OS detection, 
+        version detection,script scanning and traceout. These probes send unusual, malformed or out-of-order packets
+        that legacy systems(old routers, medical devics, SCADA/ICS equipment) were never designed to handle.
+	Thsi can cause crashes, reboots, or denial of service(DoS).In addition, some scripts may trigger 
+	authentication locakouts or log flooding. Old systems with limited disk space can have their entire log
+	partittion filled by an aggressive Nmap scan. This may cause the system to halt operation or fail to record
+	real security events.

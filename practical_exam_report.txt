@@ -1,0 +1,22 @@
+==================================================
+SESSION 17: PRACTICAL EXAM REPORT
+Operator: [Name Here]
+==================================================
+TASK 1 (FIND): What single command did you use to 
+find all .log files owned by root?
+sudo find / -name "*.log" -user root 2>/dev/null
+
+TASK 2 (MV): What command did you use to move the 
+found files into ~/Exam_Submission?
+sudo mv /var/opt/system_logs/forge_beta.log ~/Exam_Submission/
+sudo mv /tmp/audit_internal/forge_alpha.log ~/Exam_Submission/
+
+TASK 3 (HARDENING): What command did you use to change 
+the moved files to read-only (444)?
+sudo chmod 444 forge_beta.log
+sudo chmod 444 forge_alpha.log
+
+TASK 4 (OSI): Which layer handles the logical 
+addressing (IP)?
+layer 3: Network
+==================================================

@@ -1,0 +1,23 @@
+
+=== Lab Report: Network Restoration ===
+
+Task 1: Subnet Remediation
+---
+Gateway restored:
+$(ip route show | grep default)
+default via 192.168.10.1 dev enp0s3 
+
+Task 2: DNS Fix
+---
+$(grep titancorp /etc/hosts)
+192.168.10.193 secure.titancorp.com
+
+Task 3: TCP 3-Way Handshake
+---
+$(sudo tcpdump -i any host 192.168.10.193 and tcp -c 3 -n 2>/dev/null | grep -E "Flags \[S\]|Flags \[S\.\]|Flags \[.\]" | head -3 > ~/task3.txt )
+10:42:12.269358 lo    In  IP 192.168.10.193.42158 > 192.168.10.193.80: Flags [S], seq 49846058, win 65495, options [mss 65495,sackOK,TS val 633175207 ecr 0,nop,wscale 8], length 0
+10:42:12.269378 lo    In  IP 192.168.10.193.80 > 192.168.10.193.42158: Flags [S.], seq 2687057692, ack 49846059, win 65483, options [mss 65495,sackOK,TS val 633175207 ecr 633175207,nop,wscale 8], length 0
+10:42:12.269389 lo    In  IP 192.168.10.193.42158 > 192.168.10.193.80: Flags [.], ack 1, win 256, options [nop,nop,TS val 633175207 ecr 633175207], length 0
+
+
+Connection successfully restored. curl to secure.titancorp.com returned HTTP 200.

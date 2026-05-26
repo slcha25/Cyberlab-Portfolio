@@ -1,0 +1,6 @@
+default via 10.0.2.2 dev enp0s3 proto dhcp src 10.0.2.15 metric 1024 
+10.0.0.0/24 dev enp0s8 proto kernel scope link src 10.0.0.50 
+10.0.2.0/24 dev enp0s3 proto kernel scope link src 10.0.2.15 metric 1024 
+10.0.2.2 dev enp0s3 proto dhcp scope link src 10.0.2.15 metric 1024 
+202.175.3.3 via 10.0.2.2 dev enp0s3 proto dhcp src 10.0.2.15 metric 1024 
+202.175.36.16 via 10.0.2.2 dev enp0s3 proto dhcp src 10.0.2.15 metric 1024 

@@ -1,0 +1,6 @@
+Timestamp,Source IP,Event Type,Action,Description
+
+Initial Access,2025-04-15T08:22:15Z,203.0.113.45,Web Exploit,Suspicious web request with encoded payload
+Lateral Movement,2025-04-15T09:05:30Z,10.2.3.100,Windows Security,Successful logon with Domain Admin account
+Exfiltration,2025-04-15T10:30:00Z,10.2.3.100,Firewall,Outbound data transfer of 156 MB to external IP
+

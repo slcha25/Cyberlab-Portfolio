@@ -1,0 +1,19 @@
+==================================================
+SESSION 16: READINESS INVENTORY
+==================================================
+Operator: [sokchan]
+Date: [4/14/2026]
+
+Confidence Audit (Yes/No): 
+1. Nmap (Network Scanning): [Yes]
+2. Docker (Containerization): [Yes]
+3. Linux Hardening (UFW/chmod): [Yes]
+4. VS Code Remote-SSH: [Yes ]
+
+Identify your weakest area and your plan to review it:
+I think my weakest area is experience and practical situation. 
+In this lab, I followed the instruction and work it step by step. 
+However, it has sudden situation came out. Curl script didn't run smoothly since 
+my VM hasn't downloaded the docker, so docker container didn't run properly during my work.
+I need to create the ghost container by myself and remove it and apply "httpd" to work on the port 8080. Due to not run bash script succefully, ICMP blocks also can't work properly. I need to add UFW rule by myself, then delete it and make it work. All these process need AI assistance to give me gudiance to complete it. Thus, I think it is a good practice time to work with different situations because it reinforce my learning knowleges and practical experience. It helps develop my troubleshoot skills and obersavtion.
+==================================================

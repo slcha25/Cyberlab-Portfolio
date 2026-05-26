@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  db:
+    image: mariadb:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: supersecretpassword
+    volumes:
+      - db_data:/var/lib/mysql
+    networks:
+      - private_net
+
+  web:
+    image: wordpress:latest
+    ports:
+      - "80:80"
+    networks:
+      - public_net
+      - private_net
+
+volumes:
+  db_data:
+
+networks:
+  public_net:
+  private_net:
+    internal: true
