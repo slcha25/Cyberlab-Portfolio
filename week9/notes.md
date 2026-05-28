@@ -36,7 +36,9 @@
 - In this week lab, I leaned how different exfiltration to doing the attack in server side including SQL Injection, XSS payload, CSRF and API attack. After I found out the vulnerability of exfiltration, I recongized the prevention of each attack including prepared statement, parameterized, input validation,least privilege, WAF(Web Application Firewall) for SQL injection, Input sanitization , CSP and output encoding for XSS prevention, etc.
 
 ## References
-- markruss. (2024, July 23). Sysmon - Windows Sysinternals. Learn.microsoft.com. https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon
-- 8.1. Rules Format — Suricata 7.0.2-dev documentation. (n.d.). Docs.suricata.io. https://docs.suricata.io/en/latest/rules/intro.html
-- Anicas, M., & Heidi, E. (2021, December 15). UFW Essentials: Common Firewall Rules and Commands. DigitalOcean. https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands
+- OWASP. (2019). OWASP API Security - Top 10 | OWASP. Owasp.org. https://owasp.org/www-project-api-security/
+- OWASP. (2025). SQL Injection Prevention · OWASP Cheat Sheet Series. Owasp.org; Owasp. https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html
+- OWASP. (2021). Cross Site Scripting Prevention - OWASP Cheat Sheet Series. OWASP.org; OWASP. https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html
+
+‌
 
