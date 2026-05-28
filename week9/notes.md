@@ -30,11 +30,10 @@
 
 ## Challenges & How I Solved Them
 
-- When I was doing the lab 32, I got stuck at the phrase 1 & phrase 2 tasks. after I deploy the sensor, It can't tigger the ICMP & Malware Signature trap that I implemented at the beginning. I need to give the premssion (root) to run the Suricata container to trigger the custom rules which the instructor set up in the enviroment. 
-Since there is no permission to trigger the custom rules. The fast.log doesn't have any record, so I use sudo chmod 644 ~/IDS_Lab/custom_ids.rules and sudo chmod 777 ~/IDS_Lab/logs to give the permssion to run the container and trigger the event. I also have another issues for phase 2, after I fixed the permssion issue, I found fast.log don't have any record about malware activites since the docker container didn't connect to my ip-net, so I run the container through my network interface to trigger the trap and complete this lab.
+- When i was doing lab 27, I followed the instruction until I found my VM is full, I must clean up in order to complete the task, then I clean up my VM space, however, after i cleaned up, my brower couldn't open the link, so even though i installed Burp Sutie, I still can't use it, I only can use “curl” to complete the task in VM. 
 
 ## Reflection
-- In this week lab, I leaned how different protecting tools to prevent the outside attacker and realize the different functions of IDS,IPS,Sysmon, UFW, iptables, sysmon, Procmon, and Procdump,etc. After I did the labs, I learned how to give the permission to the docker container to implement the events and make it trigger the event. As defense side, I need to learn how to analyze the attracks' behavior and monitor their reaction. Even though I can't stop at this time, I can investigate the log to implement the prevention enviorment to detect future attrack and keep it in our database.
+- In this week lab, I leaned how different exfiltration to doing the attack in server side including SQL Injection, XSS payload, CSRF and API attack. After I found out the vulnerability of exfiltration, I recongized the prevention of each attack including prepared statement, parameterized, input validation,least privilege, WAF(Web Application Firewall) for SQL injection, Input sanitization , CSP and output encoding for XSS prevention, etc.
 
 ## References
 - markruss. (2024, July 23). Sysmon - Windows Sysinternals. Learn.microsoft.com. https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon
