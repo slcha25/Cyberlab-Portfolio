@@ -5,40 +5,40 @@
 
 ## What I Learned
 
-- In S22 Lab, I learned how to exfiltrate and realized the whole workflow of SQL injection, how to prevent SQL injection.
+- In S22 Lab, I learned how to establish a Netcat reverse shell, deploy the metasploit framework, execute the exploit by using usermap_script.
 
-- In S23 Lab, I learned the differentiate attacker between client-side and server-side, how to execute reflected XSS, deploy stored XSS and architect CSRF. At last, I learned the prevention of XSS and CSRF
+- In S23 Lab, I learned what escalation is, how to exploit Linux sudo misconfigurations by using GTFOBins database, identify windows vulnerabilities and execute service hijacking.
 
-- In S24 lab, I learned how to utilize Burp Sutie to do Man-in-the-middle attack, exploit BOLA attack, the vulnerability of business logic, how the rate limiting to prevent the attack, and the prevenion of BOLA, business logic.
+- In S24 lab, I learned how to manipulate Linux scheduling to automatically spawn reverse shells, execute lateral movement, and configure subnet routing. 
 
-- In this week, I learned as red team, how to exploit the attacks through SQL injection, XSS, CSRF, BOLA and business logics. The whole workflow of attack and how they work; meanwhile, the prevention of attacks work to block hidden risk.
+- In this week, I learned as red team, how to exploit the windows vulnerabilities through metaploit and acheieve a root shell, install the persistent backdoor for keeping control the victims' device. 
 
 ## Artifacts
-**Lab S22: SQL Injection Analysis ── sqli_report.txt (SQL Injection exfiltration)**
- - break a login portal using SQL Injection, map a hidden database schema, and extract secret information from a vulnerable employee directory
+**Lab S22: Execute Manual Exploitation ── exploit_verification.png  (Execute Manual Exploitation)**
+ - utilize the Metasploit Framework to verify this vulnerability and achieve a "Root Shell."
 
-**Lab S23: Cross-Site Scripting (XSS) & Cross-Site Request Forgery (CSRF) ── xss_payloads.txt (The Poisoned Browser)**
-  - attacked the server - inject malicious JavaScript into live web pages, steal admin session cookies, and craft a CSRF attack link that forces fund transfers without the victim ever knowing.
+**Lab S23: Privilege escalation ── escalation_path.txt (perform vertical privilege escalation)**
+  -  weaponize misconfigurations to escalate your privileges to total control.
 
-**Lab S24: API Security — Attack & Defence ── api_audit.log (The Invisible Logic)**
-  - intercept its traffic to view a private admin profile and brute-force a hidden discount code buried in the checkout logic
+**Lab S24: Pivot operation — hidden network scanned ── pivot_success.png (Post-Exploitation)**
+  - compromised Web-Server and install a persistent backdoor, then use the server as a bridgehead to attack Databaseon the private 10.0.9.0/24 subnet.
 
 ## Artifact filename
-  - Lab S22 ── sqli_report.txt (SQL Injection exfiltration)
-  - Lab S23 ── xss_payloads.txt (XSS & CSRF attack)
-  - Lab S24 ── api_audit.log (API Security — Attack & Defence)
+  - Lab S22 ── exploit_verification.png (Execute Manual Exploitation)
+  - Lab S23 ── escalation_path.txt (perform vertical privilege escalation)
+  - Lab S24 ── pivot_success.png (Post-Exploitation)
 
 ## Challenges & How I Solved Them
 
-- When i was doing lab 27, I followed the instruction until I found my VM is full, I must clean up in order to complete the task, then I clean up my VM space, however, after i cleaned up, my brower couldn't open the link, so even though i installed Burp Sutie, I still can't use it, I only can use “curl” to complete the task in VM. 
+- When i was doing lab 22, the chanllege is the old version of Samba which was setting up in the docker enviorment, I can't trigger the event because old version of Samba doesn't work, so I changed my permission as root and manuelly create a new docker enviorment with new version of Samba (is_known_pipename) to implement the events.  
 
 ## Reflection
-- In this week lab, I leaned how different exfiltration to doing the attack in server side including SQL Injection, XSS payload, CSRF and API attack. After I found out the vulnerability of exfiltration, I recongized the prevention of each attack including prepared statement, parameterized, input validation,least privilege, WAF(Web Application Firewall) for SQL injection, Input sanitization , CSP and output encoding for XSS prevention, etc.
+- In this week lab, I realized the whole workflow from observation to excalation, exploit the windows vulnerabilities through metaploit and create a docker container to install the backdoor on the victims' device. After that, how to keep persistent controlling the device on the lateral movement.
 
 ## References
-- OWASP. (2019). OWASP API Security - Top 10 | OWASP. Owasp.org. https://owasp.org/www-project-api-security/
-- OWASP. (2025). SQL Injection Prevention · OWASP Cheat Sheet Series. Owasp.org; Owasp. https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html
-- OWASP. (2021). Cross Site Scripting Prevention - OWASP Cheat Sheet Series. OWASP.org; OWASP. https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html
+- pentestmonkey. (n.d.). Reverse Shell Cheat Sheet | pentestmonkey. Pentestmonkey.net. https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
+- GTFOBins. (n.d.). Gtfobins.github.io. https://gtfobins.github.io/
+- Crontab.guru - The cron schedule expression editor. (n.d.). Crontab.guru. https://crontab.guru/
 
 ‌
 
