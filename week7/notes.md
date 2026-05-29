@@ -1,32 +1,32 @@
 ![Week](https://img.shields.io/badge/Week-07-blue?style=plastic)
 
-# Week 07 —  The Application Layer
+# Week 07 —  Reconnaissance & Vulnerability Analysis
 **TKH Innovation Fellowship 2026 | Phase 1 | Cybersecurity**
 
 ## What I Learned
 
-- In S22 Lab, I learned how to establish a Netcat reverse shell, deploy the metasploit framework, execute the exploit by using usermap_script.
+- In S19 Lab, I learned how to establish a Netcat reverse shell, deploy the metasploit framework, execute the exploit by using usermap_script.
 
-- In S23 Lab, I learned what escalation is, how to exploit Linux sudo misconfigurations by using GTFOBins database, identify windows vulnerabilities and execute service hijacking.
+- In S20 Lab, I learned what escalation is, how to exploit Linux sudo misconfigurations by using GTFOBins database, identify windows vulnerabilities and execute service hijacking.
 
-- In S24 lab, I learned how to manipulate Linux scheduling to automatically spawn reverse shells, execute lateral movement, and configure subnet routing. 
+- In S21 lab, I learned how to manipulate Linux scheduling to automatically spawn reverse shells, execute lateral movement, and configure subnet routing. 
 
 - In this week, I learned as red team, how to exploit the windows vulnerabilities through metaploit and acheieve a root shell, install the persistent backdoor for keeping control the victims' device. 
 
 ## Artifacts
-**Lab S22: Execute Manual Exploitation ── exploit_verification.png  (Execute Manual Exploitation)**
+**Lab S19: Execute Manual Exploitation ── exploit_verification.png  (Execute Manual Exploitation)**
  - utilize the Metasploit Framework to verify this vulnerability and achieve a "Root Shell."
 
-**Lab S23: Privilege escalation ── escalation_path.txt (perform vertical privilege escalation)**
+**Lab S20: Privilege escalation ── escalation_path.txt (perform vertical privilege escalation)**
   -  weaponize misconfigurations to escalate your privileges to total control.
 
-**Lab S24: Pivot operation — hidden network scanned ── pivot_success.png (Post-Exploitation)**
+**Lab S21: Pivot operation — hidden network scanned ── pivot_success.png (Post-Exploitation)**
   - compromised Web-Server and install a persistent backdoor, then use the server as a bridgehead to attack Databaseon the private 10.0.9.0/24 subnet.
 
 ## Artifact filename
-  - Lab S22 ── exploit_verification.png (Execute Manual Exploitation)
-  - Lab S23 ── escalation_path.txt (perform vertical privilege escalation)
-  - Lab S24 ── pivot_success.png (Post-Exploitation)
+  - Lab S19 ── exploit_verification.png (Execute Manual Exploitation)
+  - Lab S20── escalation_path.txt (perform vertical privilege escalation)
+  - Lab S21 ── pivot_success.png (Post-Exploitation)
 
 ## Challenges & How I Solved Them
 
