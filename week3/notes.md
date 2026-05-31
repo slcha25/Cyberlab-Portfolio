@@ -17,16 +17,16 @@
 **Lab S7: The Sentry ── port_check.py (Python Foundations)**
 - build a tool that "knocks" on the digital doors (Ports) of five different servers to see who is awake
 
-**Lab S8: The Paper Trail ── log_filter.py (Logic, Loops, & Lists)**
+**Lab S8: The Paper Trail ── brute_detector.py (Logic, Loops, & Lists)**
 - build a tool (brute_detector.py) that "scabs" through a messy system log to find and extract the footprints of a hacker.
 
-**Lab S9: The Conductor ── firewall_bot.py (Functional Automation)**
+**Lab S9: The Conductor ── system_auditor.py & s09reflection (Functional Automation)**
 -  build a script that detects a specific unauthorized process and generates a machine-readable alert for the security team.
   
 ## Artifact filename
   - Lab S7 ── port_check.py (Python Foundations)
-  - Lab S8 ── log_filter.py (Logic, Loops, & Lists)
-  - Lab S9 ── firewall_bot.py (Docker Compose & Orchestration)
+  - Lab S8 ── brute_detector.py  (Logic, Loops, & Lists)
+  - Lab S9 ── system_auditor.py & s09reflection (Functional Automation)
 
 ## Challenges & How I Solved Them
 
