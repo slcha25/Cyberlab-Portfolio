@@ -1,6 +1,12 @@
-![Week](https://img.shields.io/badge/Week-12-blue?style=plastic)
+
 # Week 12 — Phase 1 Final Project: Red-to-Blue Operation
 **TKH Innovation Fellowship 2026 | Phase 1 | Cybersecurity**
+
+![Student](https://img.shields.io/badge/Role-Student-blue?style=flat-square)
+![Phase](https://img.shields.io/badge/Phase-1%20of%202-orange?style=flat-square)
+![Weeks](https://img.shields.io/badge/Weeks-12-red?style=flat-square)
+![Status](https://img.shields.io/badge/Portfolio-Complete-brightgreen?style=flat-square)
+![Cohort](https://img.shields.io/badge/Cohort-Class%20of%202026-darkblue?style=flat-square)
 
 ## What I Learned
 
@@ -10,7 +16,7 @@
 
 * In this week, I also learned the 5 lab learning objectives that define a full red-to-blue security engagement: (1) active reconnaissance without prior target knowledge using nmap, (2) triage and remediate multiple vulnerabilities under time pressure, (3) execute a brute-force credential attack then switch to defender and extract forensic evidence from raw logs, (4) exploit a command injection vulnerability, establish a reverse shell, then harden the perimeter, and (5) produce a professional post-mortem report in APA format demonstrating analytical thinking across all four phases.
 
-* In this week, I reviewed the entire Phase 1 curriculum and connected all concepts together — from Linux fundamentals and networking, through Python scripting, virtualization, identity management, reconnaissance, exploitation, web application security, digital forensics, and active defense — into a complete picture of what a security practitioner needs to know to operate across both offensive and defensive roles.
+* In addition, I reviewed the entire Phase 1 curriculum and connected all concepts together — from Linux fundamentals and networking, through Python scripting, virtualization, identity management, reconnaissance, exploitation, web application security, digital forensics, and active defense — into a complete picture of what a security practitioner needs to know to operate across both offensive and defensive roles.
 
 ## Artifacts
 
