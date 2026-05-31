@@ -5,62 +5,41 @@
 
 ## What I Learned
 
-- In S10 Lab, I learned the structure of the cybersecurity ecosystem and its three major domains,differentiate between Network Security, GRC (Governance, Risk, Compliance), Cloud Security, install and configure VS Code, initialize and structure a private GitHub repository
+- In S10 Lab, I learned the architectural difference between Type 1 (Bare Metal) and Type 2 (Hosted), configure Bridged, NAT, and Host-Only networking to isolate threat actors,and architect a Sandbox.
 
-- In S11 Lab, I learned the structure and purpose of the CIA Triad,differentiate between Authentication, Authorization, Accounting, Non-Repudiation, how governance and compliance impact cybersecurity decisions and five core functions of the NIST Cybersecurity Framework
+- In S11 Lab, I learned the differentiate Virtualization Models, define and manipulate Dockerfiles, Images, and Containers,execute Process Isolation,and automate Deployment.
 
-- In S12 lab, I learned the role of virtualization in cybersecurity lab environments,differentiate between host and guest systems, install and deploy a Linux Virtual Machine,configure a Host-Only network adapter,and simulate a basic network connection in Cisco Packet Tracer
+- In S12 lab, I learned how to translate Imperative to Declarative, deploy mutually dependent services (Web and Database) simultaneously using Docker Compose,create isolated "FrontEnd" and "BackEnd" bridge networks, deploy a database into an internal network cut off from the public internet.
 
 - In this week, I learned how to set up virtual machine in my computer and how to set up the configuration, I also learn how to connect CIA traid principle and AAA framework.
 
 ## Artifacts
-**Lab S10: The Cybersecurity Workbench ── README.md (VS code and github setup.)**
+**Lab S10: The Ghost in the Machine ── sandbox_report.txt (Virtualization & Hypervisors)**
+- configure the hypervisor settings, verify the network isolation, and complete the forensic report
 
-**Lab S11: Security Mindset & Governance ── deploy_web.sh ( CIA Triad & AAA Framework)**
+**Lab S11: The Container Revolution ── deploy_web.sh (Docker Fundamentals)**
+- launch a temporary web server to host a training page. Once the training is over, delete the server entirely so it leaves no footprint for attackers.
 
-**Lab S12: Virtualization & Introduction to Packet Tracer ── README.md (Hypervisor & Virtual Machine setup)**
+**Lab S12: Virtualization & Introduction to Packet Tracer ── docker-compose.yml (Docker Compose & Orchestration)**
+-  deploying a WordPress site and the database must be in a "BackEnd" network with no internet access, while the Web server is in a "FrontEnd" network that talks to the world.
   
 ## Artifact filename
-  - Lab S10 ── README.md  (VS code and github setup)
-  - Lab S11 ── deploy_web.sh (CIA Triad & AAA Framework)
-  - Lab S12 ── docker-compose.yml (Hypervisor & Virtual Machine setup)
+  - Lab S10 ── sandbox_report.txt (Virtualization & Hypervisors)
+  - Lab S11 ── deploy_web.sh ( Docker Fundamentals)
+  - Lab S12 ── docker-compose.yml (Docker Compose & Orchestration)
 
 ## Challenges & How I Solved Them
 
-- When i was doing labs, I need to take time to read all the material since I know the basic knowledge is important to build up my foundation of cybersecurity.
+- When i was doing lab 12, the format of docker-compose.yml was correct since there is case sensitive and space are aware. Then, I took some time to read the whole yml and made sure anything was right before I saved it.
 
 ## Reflection
-- In this week labs, I l
+- In this week labs, I learned the docker fundamentals and how to write yml to implement a website or webserver. It is very interesting to see the website was created by scripts. 
 
 ## References
-- Getting started with GitHub. (n.d.). GitHub Docs. https://docs.github.com/en/get-started
-- American Psychological Association. (2019). Style and grammar guidelines. Https://Apastyle.apa.org; American Psychological Association. https://apastyle.apa.org/style-grammar-guidelines
-- CIS. (2023). CIS Critical Security Controls. CIS. https://www.cisecurity.org/controls
-- Cawthra, J., Ekstrom, M., Lusty, L., Sexton, J., Sweetnam, J., & Townsend, A. (2020, December). Data Integrity: Detecting and Responding to Ransomware and Other Destructive Events. Www.nccoe.nist.gov. https://www.nccoe.nist.gov/publication/1800-26/VolA/index.html
-- Fortinet. (2023). What Is Authentication, Authorization, And Accounting (AAA) Security? Fortinet. https://www.fortinet.com/resources/cyberglossary/aaa-security
-‌- U.S. Department of Health and Human Services. (2024). Summary of the HIPAA Security Rule. U.S. Department of Health and Human Services. https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html
-‌- Kosutic, D. (2024). What is ISO 27001? Advisera. https://advisera.com/27001academy/what-is-iso-27001/
-- Cisco Networking Academy. (2019). Download The Packet Tracer Simulator Tool & Find Courses | Networking Academy. Netacad.com. https://www.netacad.com/courses/packet-tracer
-- Cloudflare. (n.d.). What Is TCP/IP? | Cloudflare. Cloudflare. https://www.cloudflare.com/learning/ddos/glossary/tcp-ip/
-- Cisco. (2025, May). What Is Network Segmentation? Cisco. https://www.cisco.com/site/us/en/learn/topics/security/what-is-network-segmentation.html
-
-‌
-
-‌
-
-‌
-
-‌
-
-‌
-
-‌
-
-‌
-
-‌
+- Bose, M. (2019, July 16). VirtualBox Network Settings: All You Need to Know. Official NAKIVO Blog. https://www.nakivo.com/blog/virtualbox-network-setting-guide/
+- Docker. (2020, April 9). Docker overview. Docker Documentation. https://docs.docker.com/get-started/overview/
+- Networking overview. (2021, April 23). Docker Documentation. https://docs.docker.com/network/
 
 
 ‌
 
-‌
