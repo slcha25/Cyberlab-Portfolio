@@ -2,7 +2,7 @@
 
 ![Phase](https://img.shields.io/badge/Phase-1-orange?style=flat-square)
 ![Track](https://img.shields.io/badge/Track-Cybersecurity-red?style=flat-square)
-![Weeks](https://img.shields.io/badge/Weeks%20Covered-01--11-blue?style=flat-square)
+![Weeks](https://img.shields.io/badge/Weeks%20Covered-01--12-blue?style=flat-square)
 ![Status](https://img.shields.io/badge/Audit%20Status-Complete-brightgreen?style=flat-square)
 
 **Fellow:** Sok Leng Chan
