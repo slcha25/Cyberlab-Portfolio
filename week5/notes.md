@@ -1,7 +1,13 @@
-![Week](https://img.shields.io/badge/Week-05-blue?style=plastic)
+
 
 # Week 05 —  Identity, Access Management (IAM), and Windows Enterprise Infrastructure
 **TKH Innovation Fellowship 2026 | Phase 1 | Cybersecurity**
+
+![Student](https://img.shields.io/badge/Role-Student-blue?style=flat-square)
+![Phase](https://img.shields.io/badge/Phase-1%20of%202-orange?style=flat-square)
+![Weeks](https://img.shields.io/badge/Weeks-05-red?style=flat-square)
+![Status](https://img.shields.io/badge/Portfolio-Complete-brightgreen?style=flat-square)
+![Cohort](https://img.shields.io/badge/Cohort-Class%20of%202026-darkblue?style=flat-square)
 
 ## What I Learned
 
