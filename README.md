@@ -15,7 +15,7 @@
   Cybersecurity  ·  Phase 1  ·  Spring 2026
 ```
 
-> *"The more I learn, the more I realize how much I don't know."* — Richard Feynman
+> *"Stay Hungry, Stay Foolish."* — Steve Jobs
 
 ---
 
