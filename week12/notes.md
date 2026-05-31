@@ -1,3 +1,4 @@
+![Week](https://img.shields.io/badge/Week-12-blue?style=plastic)
 # Week 12 — Phase 1 Final Project: Red-to-Blue Operation
 **TKH Innovation Fellowship 2026 | Phase 1 | Cybersecurity**
 
